@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Fontawesone -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+          integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- Normalize.css https://necolas.github.io/normalize.css/-->
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- ATTENTION PRIORITE AU MOBILE FIRST -->
+    <link rel="stylesheet" href="MOBILE.css">
+
+    <!-- MEDIA QUERIES RESPONSIVE DESIGN-->
+    <!-- Tablette -->
+    <link rel="stylesheet" media="screen and (min-width: 425px)" href="tablette.css"/>
+
+    <!-- Ecran Moyen desktop -->
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="desktopMD.css"/>
+
+    <!-- Ecran Large desktop -->
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="desktopLG.css"/>
+
+    <!-- Javascript -->
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="scroll"></div>
+<div class="wrapper">
+
+    <!--NAVIGATION-->
+    <nav>
+        <div class="menu_hamburger">
+       <button><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="navbar ">
+        <a href="#">01:A propos </a>
+        <a href="#">02:Formations </a>
+        <a href="#">03:Compétences </a>
+        <a href="#">04:Technologies </a>
+        <a href="#">05:Projets</a>
+        <a href="#">06:Contact</a>
+        </div>
+    </nav>
+    <!--HEADER-->
+    <header>
+        <h1 class="white">Hello c'est moi stéphane !</h1>
+        <h2>Developpeur front end junior</h2>
+        <button class="m60">Télécharger mon cv</button>
+    </header>
+
+    <!--ABOUT ME  -->
+    <div class="titre_menu p60">
+        <h1>01: A propos de moi</h1>
+    </div>
+
+    <section class="presentation p60">
+        <p>Je suis étudiant en informatique à la Wild Code Shool de Marseille, et futur diplômé d'un titre de
+            Développeur de logiciel (bac + 2).
+            Ce portfolio a pour but de présenter les différents projets sur lesquels j'ai travaillé ces derniers temps
+            aussi bien dans le cadre scolaire que personnel.
+            Si vous avez une question, ou si vous avez simplement besoin d'un renseignement, N`hesitez pas a me
+            contacter </p>
+        <img src="Img/job_stephane.jpg" alt="photo de job stéphane">
+    </section>
+
+    <!--FORMATIONS-->
+    <div class="titre_menu p60">
+        <h1>02: Formations</h1>
+    </div>
+
+    <section class="formation m60 ">
+        <h1 class="white">WILD CODE SHOOL</h1>
+        <h2 class="white">Développeur Logiciel (niveau III, équivalent Bac+2). J'y étudie principalement le Javascript
+            et le framework React</h2>
+        <button>En savoir plus</button>
+    </section>
+
+    <!--COMPETENCES-->
+    <div class="titre_menu p60">
+        <h1>03: Compétences</h1>
+    </div>
+
+    <section class="competences p60">
+        <ul>
+            <li><h2>Développeur front end</h2></li>
+            <li><h2>Responsive Design</h2></li>
+            <li><h2>Methode Agile</h2></li>
+            <li><h2>Consception graphique</h2></li>
+            <li><h2>Versionning</h2></li>
+            <li><h2>Flexbox</h2></li>
+            <li><h2>Css grid</h2></li>
+        </ul>
+    </section>
+
+
+    <!--TECHNOLOGIES-->
+    <div class="titre_menu p60">
+        <h1>04: Technologies</h1>
+    </div>
+
+    <section class="technolgies m60 ">
+        <div class="html5">
+            <i class="fab fa-html5"></i>
+            <p>Html5</p>
+            <h1 class="avancement">50%</h1>
+        </div>
+        <div class="css3">
+            <i class="fab fa-css3-alt"></i>
+            <p>Css3</p>
+            <h1 class="avancement">55%</h1>
+        </div>
+        <div class="js">
+            <i class="fab fa-js-square"></i>
+            <p>Javascript</p>
+            <h1 class="avancement">30%</h1>
+        </div>
+        <div class="react">
+            <i class="fab fa-react"></i>
+            <p>React</p>
+            <h1 class="avancement">0%</h1>
+
+        </div>
+        <div class="linux">
+            <i class="fab fa-linux"></i>
+            <p>Linux</p>
+            <h1 class="avancement">80%</h1>
+        </div>
+        <div class="git">
+            <i class="fab fa-git-square"></i>
+            <p>Git</p>
+            <h1 class="avancement">66%</h1>
+        </div>
+    </section>
+
+    <!--PROJET-->
+    <div class="titre_menu m60">
+        <h1>05: Projets</h1>
+    </div>
+
+    <section class="projets p60 ">
+        <div class="projet1 cards">
+            <div class="card_content">
+                <h2>Calculatrice</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, tempora.</p>
+                <button>View Github</button>
+            </div>
+        </div>
+
+        <div class="projet2 cards">
+            <div class="card_content">
+                <h2>Calculatrice</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, tempora.</p>
+                <button>View Github</button>
+            </div>
+        </div>
+
+        <div class="projet3 cards">
+            <div class="card_content">
+                <h2>Calculatrice</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, tempora.</p>
+                <button>View Github</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="titre_menu p60 ">
+        <h1>06:Contact</h1>
+    </div>
+    <footer>
+        <div class="tel position">
+            <i class=" fab fas fa-mobile-alt"></i>
+            <h4 class="white">06.64.61.28.81</h4>
+        </div>
+
+        <div class="mail position">
+            <i class=" fab far fa-envelope"></i>
+            <h4 class="white">darksh3ll.js@gmail.com</h4>
+        </div>
+
+        <div class="git position">
+            <i class="fab fa-github"></i>
+            <h4 class="white">github.com/darksh3ll</h4>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

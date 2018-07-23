@@ -1,0 +1,51 @@
+
+/*NAVBAR*/
+.menu_hamburger {
+    display: none;
+
+}
+
+.navbar {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.presentation {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,minmax(200px,auto));
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.presentation p {
+    text-align: center;
+    line-height: 45px;
+    font-size: 1.5em;
+
+}
+.technolgies {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,minmax(200px,auto));
+}
+
+.competences ul  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: start;
+    grid-gap: 20px;
+}
+
+.projets {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,minmax(400px,auto));
+    grid-gap: 20px;
+}

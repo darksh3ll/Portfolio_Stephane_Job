@@ -1,0 +1,35 @@
+.wrapper {
+}
+
+header {
+    height: 600px;
+}
+
+.technolgies {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,minmax(400px,auto));
+}
+.competences ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    grid-template-rows: repeat(3,100px);
+    align-items: center;
+    justify-items: center;
+    grid-gap: 20px;
+}
+
+/*.projets {*/
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3,1fr);*/
+    /*grid-gap: 20px;*/
+/*}*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}

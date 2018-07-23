@@ -1,0 +1,247 @@
+/* Mobile first
+
+Le concept mobile first consiste à concevoir un site en concevant en priorité la version mobile et en adaptant progressivement celui-ci pour les écrans plus large. */
+
+/*SYSTEME*/
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper {
+    width: 90%;
+    margin-top: 30px;
+    /*margin: auto;*/
+    border: 10px solid black;
+    background-color: #FAFAFA;
+    box-shadow: 4px 3px 13px 6px #000000c4;
+}
+
+.scroll {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5px;
+    background-color:seagreen;
+    width: 0;
+}
+/*GENERAL*/
+
+/*Couleurs*/
+.white {
+    color:#FAFAFA;
+}
+
+/*Marge*/
+.p60 {
+    padding-top: 60px;
+}
+.m60 {
+    margin-top: 60px;
+}
+/*NAVBAR*/
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+.menu_hamburger {
+    font-size: 2em;
+}
+
+.menu_hamburger button {
+    cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+
+}
+
+.add_menu {
+    display: none;
+}
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(-225deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 200%), url("Img/Header.jpg") center ;
+    background-size: cover;
+    /*Positionnement*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #FAFAFA;
+}
+
+/*ABOUT ME*/
+
+.barre {
+    border: 2px solid black;
+    height: 50px;
+    background-color: black;
+    width: 1px;
+    margin-left: 40px;
+}
+
+.titre_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.presentation img {
+    width: 300px;
+    height: auto;
+}
+
+.presentation {
+    display: grid;
+    grid-template-columns: repeat(1,1fr) ;
+    grid-template-rows: repeat(1,minmax(200px,auto));
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+
+
+}
+
+.presentation p {
+    text-align: center;
+    line-height: 25px;
+
+}
+
+/*FORMATIONS*/
+.formation {
+    width: 100%;
+    height: 600px;
+    background: url("Img/Wild_Code_School.jpg") center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+/*COMPETENCES*/
+.competences ul  {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: start;
+    grid-gap: 20px;
+
+}
+
+
+
+/*TECHNOLOGIES*/
+.technolgies {
+
+    width: 100%;
+    height: auto;
+    background: url("Img/Technologies.jpg") center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,minmax(200px,auto));
+    grid-gap: 1px;
+
+
+}
+
+.fab {
+    font-size: 4em;
+    color: #FAFAFA;
+}
+
+.technolgies >* {
+    border: 1px solid white;
+    padding: 20px;
+    background-color:rgba(0, 0, 0 , 0.5);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.technolgies p {
+    color: #FAFAFA;
+}
+
+.avancement {
+    color: #FAFAFA;
+    opacity: 0.5;
+    font-size: 2em;
+}
+/*PROJET*/
+.cards {
+    background: url("Img/cards.jpg") center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.projets {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,minmax(400px,auto));
+    grid-gap: 20px;
+
+}
+.card_content {
+    height: 350px;
+    background-color: #FAFAFA;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 4px 3px 13px 6px #000000c4;
+}
+
+.card_content button {
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-wrap: wrap;
+
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.position>* {
+    opacity: 0.6;
+}
